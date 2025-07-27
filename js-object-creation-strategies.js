@@ -14,8 +14,7 @@ function Pessoa3(nome, idade) {
   this.nome = nome;
   this.idade = idade;
 }
-const pessoa3 = new Pessoa3("Carlos", 40); // Corrigido: era 'Pessoa'
-
+const pessoa3 = new Pessoa3("Carlos", 40); 
 //  Object.create()
 const prototipo = { saudacao: "Olá" };
 const novoObjeto = Object.create(prototipo);
